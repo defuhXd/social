@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NxAngularConfigService" workspaceLocation="file://$PROJECT_DIR$/nx.json">
+    <projects>
+      <project name="auth" file="file://$PROJECT_DIR$/libs/auth/project.json" />
+      <project name="chats" file="file://$PROJECT_DIR$/libs/chats/project.json" />
+      <project name="common-ui" file="file://$PROJECT_DIR$/libs/common-ui/project.json" />
+      <project name="community-page" file="file://$PROJECT_DIR$/libs/community-page/project.json" />
+      <project name="data-access" file="file://$PROJECT_DIR$/libs/data-access/project.json" />
+      <project name="experimental" file="file://$PROJECT_DIR$/libs/experimental/project.json" />
+      <project name="layouts" file="file://$PROJECT_DIR$/libs/layouts/project.json" />
+      <project name="posts" file="file://$PROJECT_DIR$/libs/posts/project.json" />
+      <project name="profile" file="file://$PROJECT_DIR$/libs/profile/project.json" />
+      <project name="shared" file="file://$PROJECT_DIR$/libs/shared/project.json" />
+      <project name="tik-talk" file="file://$PROJECT_DIR$/apps/tik-talk/project.json" />
+      <project name="web-socket" file="file://$PROJECT_DIR$/libs/web-socket/project.json" />
+    </projects>
+  </component>
+</project>
