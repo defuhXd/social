@@ -40,187 +40,523 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common.js",
-        "hash": "15330580898767317748"
+        "file": ".git/objects/7e/0dea088fe1402fa8cd8326320b53127fde4f7b",
+        "hash": "4773568359258605628"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_operators.js.map",
-        "hash": "9947606979680686569"
+        "file": ".git/objects/e5/007bab65f1c535a99a2ebf94a7c399a9804277",
+        "hash": "17004347902861679500"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals.js",
-        "hash": "4623065225189112262"
+        "file": ".git/objects/48/0f345654228794cc3cac1ade39e55fc0263f1b",
+        "hash": "399019439602059311"
       },
       {
-        "file": "apps/.DS_Store",
-        "hash": "6715275410808884773"
+        "file": ".git/objects/e0/b2fe382c99557fb6b35bb6fc10aabab5594915",
+        "hash": "7158589523494340422"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common_http.js",
-        "hash": "8937078286578344204"
+        "file": ".git/objects/98/652118b6862120fb1a693020ad8654fe85851d",
+        "hash": "2715028118255695934"
       },
       {
-        "file": "public/assets/fonts/JetBrainsMono-Medium.woff2",
-        "hash": "8213101841764404023"
+        "file": ".git/objects/b7/beef3d7e30771a00e776372325841bf174d3bd",
+        "hash": "2098456974954715021"
       },
       {
-        "file": "package.json",
-        "hash": "15980770623075021194"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_webSocket.js.map",
-        "hash": "2624033660610167874"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-7DPHYZ4E.js",
-        "hash": "15288208965287941410"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/zone__js.js.map",
-        "hash": "13015539677990086732"
-      },
-      {
-        "file": ".idea/vcs.xml",
-        "hash": "14600148892634157659"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-Bold.woff2",
-        "hash": "12642314913256462584"
-      },
-      {
-        "file": "public/assets/svg/logo-small.svg",
-        "hash": "14668529259841840441"
-      },
-      {
-        "file": ".git/logs/refs/remotes/origin/HEAD",
-        "hash": "17226202989225508729"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-WDMUDEB6.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-V7CMOOY7.js.map",
-        "hash": "11114258793551607020"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs.js",
+        "hash": "3007352617052027080"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "9658387845112155587"
       },
       {
-        "file": "public/assets/fonts/JetBrainsMono-ExtraLightItalic.woff2",
-        "hash": "1690715562120082653"
+        "file": ".git/objects/6f/60606397b6ed6012e4bdb947b3b4c93d237241",
+        "hash": "1376055476628527888"
+      },
+      {
+        "file": ".git/objects/3b/5b630ce0ebe9ddd589fb2f787241ff656b5064",
+        "hash": "11504179129133018765"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4824542902834569127"
+      },
+      {
+        "file": ".git/objects/8f/3bbff011024df2c0bba2b353e25dac0e5fc2b5",
+        "hash": "8540289241844538159"
       },
       {
         "file": "mini-backend/server.js",
         "hash": "16344931582227033156"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals.js.map",
-        "hash": "192008781977219617"
+        "file": "public/assets/fonts/JetBrainsMono-ThinItalic.woff2",
+        "hash": "6080634326071136664"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-Regular.woff2",
-        "hash": "11185806246604728400"
+        "file": ".git/objects/c7/787ff011b3b770266162ba9130c3ff6b322fd2",
+        "hash": "14141614771554414631"
       },
       {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_effects.js",
         "hash": "6204541129839426770"
       },
       {
-        "file": "public/assets/svg/search.svg",
-        "hash": "13591654779159115626"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PXKNON4.js",
+        "hash": "6389749012650585024"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_webSocket.js",
-        "hash": "11011558659987324248"
+        "file": ".git/objects/a1/900b1294fdbdc044914197788b59730fe32f5d",
+        "hash": "1993654289773271384"
       },
       {
-        "file": ".idea/inspectionProfiles/Project_Default.xml",
-        "hash": "8912173605315939135"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PELVZB2.js.map",
+        "hash": "2721705364010351216"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-XQIII63V.js.map",
-        "hash": "11789335753056102195"
+        "file": "mini-backend/data.json",
+        "hash": "3547593647173522216"
+      },
+      {
+        "file": "mini-backend/package.json",
+        "hash": "6923137712067903200"
+      },
+      {
+        "file": ".git/objects/63/f2c1890cfc042779728d194bf5def6333b34a5",
+        "hash": "13199698702057850751"
       },
       {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-UVWTBJUY.js",
         "hash": "4188593402325483616"
       },
       {
-        "file": "public/assets/fonts/JetBrainsMono-ExtraLight.woff2",
-        "hash": "11572460752265426875"
+        "file": ".git/objects/36/c5d70c5a6f20434b999af8898e6af9e09e0c85",
+        "hash": "17047114826512064191"
       },
       {
-        "file": "mini-backend/db.js",
-        "hash": "14532280198081343168"
+        "file": ".git/logs/refs/remotes/origin/main",
+        "hash": "8242942199399614197"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals_rxjs-interop.js",
-        "hash": "17647268074829773080"
+        "file": ".git/config",
+        "hash": "15300429093283727382"
       },
       {
-        "file": "karma.conf.js",
-        "hash": "9656364725710720620"
-      },
-      {
-        "file": ".nx/workspace-data/nx_files.nxt",
-        "hash": "16178419021402075827"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-ExtraBoldItalic.woff2",
-        "hash": "15734304364068095418"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps_ssr/package.json",
-        "hash": "8630294688235076505"
-      },
-      {
-        "file": "mini-backend/db.json",
-        "hash": "10599018424508252896"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_router.js.map",
-        "hash": "6259558350311630883"
-      },
-      {
-        "file": ".git/FETCH_HEAD",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-ThinItalic.woff2",
-        "hash": "6080634326071136664"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store.js",
-        "hash": "8102087024177257552"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_effects.js.map",
-        "hash": "9786342291646239547"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "6870352021923392442"
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "13215006060548385728"
       },
       {
         "file": "public/assets/fonts/JetBrainsMono-BoldItalic.woff2",
         "hash": "7959894020506305845"
       },
       {
-        "file": "public/assets/svg/tg-icon.svg",
-        "hash": "10388384080039999061"
+        "file": "public/assets/fonts/JetBrainsMono-LightItalic.woff2",
+        "hash": "9220599152812126991"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common_http.js",
+        "hash": "8937078286578344204"
+      },
+      {
+        "file": ".idea/vcs.xml",
+        "hash": "14600148892634157659"
+      },
+      {
+        "file": ".git/objects/5d/23676b0f5e68445474e0b094f3e2585d177cbc",
+        "hash": "6558891878213891840"
+      },
+      {
+        "file": ".git/objects/b8/2d1b092cb27244dbfc2a75b9e033d08b621049",
+        "hash": "17168295201063446271"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-PUCEQW7N.js.map",
+        "hash": "16939221969770111629"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-V7CMOOY7.js.map",
+        "hash": "11114258793551607020"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Light.woff2",
+        "hash": "16815470053404224352"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_operators.js",
+        "hash": "4887956875510027678"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-ExtraLightItalic.woff2",
+        "hash": "1690715562120082653"
+      },
+      {
+        "file": ".git/objects/e1/2001cc6fd8ddc08e1001ba4a245e0f4dc10676",
+        "hash": "16367653542982171762"
+      },
+      {
+        "file": ".git/objects/d4/e75f2d041050d99fdb78b1a15624b24f3c19a0",
+        "hash": "17645682714633695726"
+      },
+      {
+        "file": ".git/objects/43/588c7f27fee238f8333f25b748fc739d23bf5f",
+        "hash": "3571549448162921042"
+      },
+      {
+        "file": ".idea/.gitignore",
+        "hash": "10286036308014790964"
       },
       {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PELVZB2.js",
         "hash": "1418598642122484616"
       },
       {
+        "file": ".git/objects/2c/5bc528e82e5d98d38eb2b92313c56b901a790b",
+        "hash": "433826067454802257"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common.js",
+        "hash": "15330580898767317748"
+      },
+      {
+        "file": ".git/objects/7e/3675072b93a0b304e8bc6a1aed6e822943c0b6",
+        "hash": "10356987974640616955"
+      },
+      {
+        "file": ".git/objects/51/db0925a487697833a9c90311b4a8688f3a160b",
+        "hash": "10352419150002344459"
+      },
+      {
+        "file": "public/assets/svg/logout.svg",
+        "hash": "5215368976882033774"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-DXQPSICQ.js.map",
+        "hash": "6227331744083822559"
+      },
+      {
+        "file": ".git/objects/11/343b88d832b99f8bdb3e40fff55e88ec22c9e0",
+        "hash": "18053512025142957212"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Bold.woff2",
+        "hash": "12642314913256462584"
+      },
+      {
+        "file": ".git/objects/1f/993944e1d57e986c1f0b399aef7392a131ac57",
+        "hash": "15325253002278845528"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_operators.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".git/objects/2c/076d2a31d47ce675870d01915580eaa0564d80",
+        "hash": "9088956244106746951"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-WDMUDEB6.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "16178419021402075827"
+      },
+      {
+        "file": ".git/objects/73/f422b161d1c433ea7101e61e7c8a240cb0eee0",
+        "hash": "15183159402083398800"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-ExtraBold.woff2",
+        "hash": "8752177739258274811"
+      },
+      {
+        "file": ".git/objects/eb/707d9c67005aae82c007e5b31dfe5cc471536a",
+        "hash": "2883804230244709682"
+      },
+      {
+        "file": ".git/logs/HEAD",
+        "hash": "3928802135921096038"
+      },
+      {
+        "file": "public/assets/svg/settings.svg",
+        "hash": "7714139666061774016"
+      },
+      {
+        "file": ".git/refs/heads/macOS",
+        "hash": "4606690836190611796"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_webSocket.js",
+        "hash": "11011558659987324248"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_forms.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-B37IXBFJ.js",
+        "hash": "11575081761221352434"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core_rxjs-interop.js",
+        "hash": "1841759927511298502"
+      },
+      {
+        "file": "public/assets/svg/logo-small.svg",
+        "hash": "14668529259841840441"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/ngx-cookie-service.js",
+        "hash": "1535749885971954898"
+      },
+      {
+        "file": "mini-backend/db.json",
+        "hash": "10599018424508252896"
+      },
+      {
+        "file": ".git/objects/da/ac86fb756e8f963899d922d537bff6932ba63e",
+        "hash": "3495658996188392906"
+      },
+      {
+        "file": ".git/HEAD",
+        "hash": "13943440938024940174"
+      },
+      {
+        "file": ".git/ORIG_HEAD",
+        "hash": "4606690836190611796"
+      },
+      {
+        "file": ".git/objects/67/3f9a61fb5b49bd663cde6c6332d67e444fe3a1",
+        "hash": "2384981794069079258"
+      },
+      {
+        "file": ".git/objects/8a/aff9fb0ec2478d0d75cb2536563b7b0b5965fe",
+        "hash": "5828983115068253741"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_forms.js",
+        "hash": "9631425544601388777"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "11726145598490988808"
+      },
+      {
+        "file": ".git/objects/7c/3990afdaaa4ec3a0fb0be60dd64b4b8d529ebf",
+        "hash": "4993483531150009765"
+      },
+      {
+        "file": ".git/objects/e4/c1977e438ddfbe5e83820286c35c98af196c68",
+        "hash": "8380909666395621629"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common_http.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "package.json",
+        "hash": "15980770623075021194"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/zone__js.js.map",
+        "hash": "13015539677990086732"
+      },
+      {
+        "file": ".git/objects/65/be0e95610f8a821e8e9fc0fdeb673fb844eac4",
+        "hash": "15099395454543034122"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-I6HPHQR4.js",
+        "hash": "880391572400058949"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ctrl_ngx-emoji-mart.js.map",
+        "hash": "9855037649324220884"
+      },
+      {
+        "file": ".git/objects/88/69afb8b572cb8c173c11d4b36b22ca80b01fbe",
+        "hash": "18100951460750478319"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-ExtraBoldItalic.woff2",
+        "hash": "15734304364068095418"
+      },
+      {
+        "file": ".git/objects/ff/86dd0aac6fab93f368dd26fcdef8d06db1c598",
+        "hash": "12417827513540679746"
+      },
+      {
+        "file": "public/assets/svg/eye.svg",
+        "hash": "11117476148174672795"
+      },
+      {
+        "file": ".git/objects/ec/0d40d8de2f129c885585c3a40dc9f1261a6287",
+        "hash": "14564849522245865760"
+      },
+      {
+        "file": ".git/objects/b4/e15d410d6b827a53eb5df08e6fab0f1caf3777",
+        "hash": "13971267753426220797"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "4665328684042819579"
+      },
+      {
+        "file": "public/assets/svg/like-icon.svg",
+        "hash": "10741689746288414477"
+      },
+      {
+        "file": ".git/objects/64/6ae626868edc1e3eb3e5de7a83ec0ea89c8d56",
+        "hash": "15345444554352893623"
+      },
+      {
+        "file": ".git/refs/remotes/origin/HEAD",
+        "hash": "14337113598980590668"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-ExtraLight.woff2",
+        "hash": "11572460752265426875"
+      },
+      {
+        "file": ".git/objects/da/e3705b0141028238a472f28f2f736c4c8b029e",
+        "hash": "8722258861972132850"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core_rxjs-interop.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": "README.md",
+        "hash": "13825516765265236138"
+      },
+      {
+        "file": "public/assets/images/img.png",
+        "hash": "804849640913273742"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "9656364725710720620"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals_rxjs-interop.js.map",
+        "hash": "13008649448683666010"
+      },
+      {
+        "file": ".git/objects/9b/2ed22c2549e1407b1b7b96fb22795e811bc525",
+        "hash": "16320920388057953566"
+      },
+      {
+        "file": ".git/objects/50/3a919855fa92f9aa4c861b1ca7a7c055bdc8d9",
+        "hash": "14498250702027460778"
+      },
+      {
+        "file": "public/assets/svg/home.svg",
+        "hash": "4385154984810283653"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/zone__js.js",
+        "hash": "12704328833797604064"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".git/logs/refs/heads/macOS",
+        "hash": "8657554090972653277"
+      },
+      {
+        "file": "public/assets/svg/tg-icon.svg",
+        "hash": "10388384080039999061"
+      },
+      {
+        "file": ".git/objects/a6/17740f0f35be22138f03d5faf20e70bcd49d63",
+        "hash": "16363900220888372323"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-E43UC4YD.js",
+        "hash": "15982228163304053429"
+      },
+      {
+        "file": "public/assets/svg/upload.svg",
+        "hash": "7384061626821279379"
+      },
+      {
+        "file": "public/assets/svg/logo-big.svg",
+        "hash": "9108047496145363313"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-DXQPSICQ.js",
+        "hash": "7949157912080094535"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store-devtools.js.map",
+        "hash": "5351415131289553399"
+      },
+      {
+        "file": "public/assets/svg/delete.svg",
+        "hash": "16203641700745019880"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Regular.woff2",
+        "hash": "11185806246604728400"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ctrl_ngx-emoji-mart.js",
+        "hash": "2951605492552871148"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Medium.woff2",
+        "hash": "8213101841764404023"
+      },
+      {
+        "file": "public/assets/svg/search.svg",
+        "hash": "13591654779159115626"
+      },
+      {
+        "file": "public/assets/svg/arrow.svg",
+        "hash": "8694899447042235703"
+      },
+      {
+        "file": ".git/objects/b4/1c8d11b39fd60eaa5c2fc8ceedad2187ca88d6",
+        "hash": "3634357635346870738"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-7DPHYZ4E.js.map",
+        "hash": "10462802374502600250"
+      },
+      {
+        "file": ".idea/inspectionProfiles/Project_Default.xml",
+        "hash": "8912173605315939135"
+      },
+      {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs.js.map",
         "hash": "9947606979680686569"
       },
       {
@@ -228,416 +564,468 @@
         "hash": "9162338873479439691"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_platform-browser.js.map",
-        "hash": "9947606979680686569"
+        "file": ".git/refs/remotes/origin/macOS",
+        "hash": "4606690836190611796"
       },
       {
-        "file": "public/assets/svg/dotted-icon.svg",
-        "hash": "8679218149674364408"
+        "file": "apps/.DS_Store",
+        "hash": "6715275410808884773"
       },
       {
-        "file": "public/assets/images/img.png",
-        "hash": "804849640913273742"
+        "file": ".git/objects/e5/6a90cd1784f0e540f75e0f6333b7a5b7d4cd31",
+        "hash": "9164963864891674945"
       },
       {
-        "file": ".idea/modules.xml",
-        "hash": "14492296385763978930"
+        "file": ".git/index",
+        "hash": "8882825627984367703"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core.js.map",
-        "hash": "9947606979680686569"
+        "file": ".git/objects/3d/c12d9c225cae930958478da2b257d92c97187f",
+        "hash": "10904563010989849349"
       },
       {
-        "file": ".idea/social.iml",
-        "hash": "2091662290190038625"
+        "file": ".git/objects/51/6b6c1e61115d8cf66a81279de4bc11e9e43ce7",
+        "hash": "2800567011535227164"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps_ssr/_metadata.json",
-        "hash": "16468493388282485954"
-      },
-      {
-        "file": "public/assets/svg/smile.svg",
-        "hash": "16031336439036594519"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core.js",
-        "hash": "3263207106229877078"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_common_http.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13299511145039150653"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-PUCEQW7N.js.map",
-        "hash": "16939221969770111629"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-Italic.woff2",
-        "hash": "18212672132293203333"
-      },
-      {
-        "file": ".idea/.gitignore",
-        "hash": "10286036308014790964"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-7DPHYZ4E.js.map",
-        "hash": "10462802374502600250"
-      },
-      {
-        "file": "public/assets/svg/home.svg",
-        "hash": "4385154984810283653"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "4665328684042819579"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core_rxjs-interop.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-SemiBoldItalic.woff2",
-        "hash": "1220129604004450718"
-      },
-      {
-        "file": "public/assets/svg/share-icon.svg",
-        "hash": "18224206483068158538"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-X7RM4TN5.js.map",
-        "hash": "12297619165455911603"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals_rxjs-interop.js.map",
-        "hash": "13008649448683666010"
+        "file": ".git/objects/e6/ece793d5e0997dda55af0a0d4832818b5a3482",
+        "hash": "14588599191825220811"
       },
       {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-X7RM4TN5.js",
         "hash": "18009773080938017212"
       },
       {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "1721393135368069589"
+        "file": ".git/objects/0e/82a216a9e9e13e1007b0f2bd16e83ef000aa87",
+        "hash": "1455023633568378031"
       },
       {
-        "file": ".git/refs/remotes/origin/HEAD",
-        "hash": "14337113598980590668"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-I6HPHQR4.js",
-        "hash": "880391572400058949"
-      },
-      {
-        "file": "public/assets/svg/like-icon.svg",
-        "hash": "10741689746288414477"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PELVZB2.js.map",
-        "hash": "2721705364010351216"
-      },
-      {
-        "file": "public/assets/svg/comment-icon.svg",
-        "hash": "17027744262192349281"
-      },
-      {
-        "file": "public/favicon.ico",
-        "hash": "3988961587069885523"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-MediumItalic.woff2",
-        "hash": "439627487028062794"
-      },
-      {
-        "file": "mini-backend/package.json",
-        "hash": "6923137712067903200"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-OUVCBQFH.js.map",
-        "hash": "12444532862618638689"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "3689349852385056702"
-      },
-      {
-        "file": "public/assets/svg/logo-big.svg",
-        "hash": "9108047496145363313"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-V7CMOOY7.js",
-        "hash": "1273488727735029310"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store-devtools.js",
-        "hash": "15795859540508430887"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-OUVCBQFH.js",
-        "hash": "4426252822737592890"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ctrl_ngx-emoji-mart.js",
-        "hash": "2951605492552871148"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/_metadata.json",
-        "hash": "789271802145395619"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PXKNON4.js",
-        "hash": "6389749012650585024"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-B37IXBFJ.js",
-        "hash": "11575081761221352434"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_forms.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-Light.woff2",
-        "hash": "16815470053404224352"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-PUCEQW7N.js",
-        "hash": "17407103050261871933"
-      },
-      {
-        "file": "public/assets/svg/chat.svg",
-        "hash": "248610857705071858"
-      },
-      {
-        "file": ".idea/nx-angular-config.xml",
-        "hash": "15047323392680224010"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core_rxjs-interop.js",
-        "hash": "1841759927511298502"
-      },
-      {
-        "file": "mini-backend/package-lock.json",
-        "hash": "12287817668779388155"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-XQIII63V.js",
-        "hash": "4709040128533591646"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/.tsbuildinfo",
-        "hash": "2175165396294132653"
-      },
-      {
-        "file": "public/assets/svg/filter-btn.svg",
-        "hash": "7036003158479974598"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-ExtraBold.woff2",
-        "hash": "8752177739258274811"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs.js",
-        "hash": "3007352617052027080"
+        "file": ".git/objects/2b/edaac4844e210028df171ff39d21382a2a833e",
+        "hash": "7531536294174236405"
       },
       {
         "file": "public/assets/svg/eye-cry.svg",
         "hash": "9176425822635394676"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/ngx-cookie-service.js",
-        "hash": "1535749885971954898"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/_metadata.json",
+        "hash": "789271802145395619"
       },
       {
-        "file": ".git/logs/refs/remotes/origin/main",
-        "hash": "13064416651380458179"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-X7RM4TN5.js.map",
+        "hash": "12297619165455911603"
       },
       {
-        "file": "public/assets/svg/link-follow.svg",
-        "hash": "7085956096587385969"
+        "file": ".git/objects/2e/c795a91b30d918d3405fb57639d9c23b7b46fd",
+        "hash": "7578978211910162056"
       },
       {
-        "file": "public/assets/svg/community.svg",
-        "hash": "9043325429042048553"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-SemiBold.woff2",
-        "hash": "17010626544071602252"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-UVWTBJUY.js.map",
-        "hash": "5630774242859007334"
-      },
-      {
-        "file": "public/assets/svg/arrow.svg",
-        "hash": "8694899447042235703"
-      },
-      {
-        "file": "public/assets/images/bgimg.png",
-        "hash": "7642439707095056499"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_router.js",
-        "hash": "17806577523705527267"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_platform-browser.js",
-        "hash": "4339759815933727444"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_operators.js",
-        "hash": "4887956875510027678"
-      },
-      {
-        "file": "public/assets/svg/settings.svg",
-        "hash": "7714139666061774016"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PXKNON4.js.map",
-        "hash": "2113281058244603172"
-      },
-      {
-        "file": "public/assets/images/avatar-placeholder.png",
-        "hash": "14302772689269306324"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-I6HPHQR4.js.map",
-        "hash": "16949458728946941031"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/luxon.js",
-        "hash": "5246116310469530499"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ctrl_ngx-emoji-mart.js.map",
-        "hash": "9855037649324220884"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/package.json",
-        "hash": "8630294688235076505"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-E43UC4YD.js",
-        "hash": "15982228163304053429"
-      },
-      {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "public/assets/svg/delete.svg",
-        "hash": "16203641700745019880"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/luxon.js.map",
-        "hash": "4215680833457895494"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-Thin.woff2",
-        "hash": "12513629612638962945"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store-devtools.js.map",
-        "hash": "5351415131289553399"
-      },
-      {
-        "file": ".git/refs/remotes/origin/main",
-        "hash": "15209564571041153606"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_forms.js",
-        "hash": "9631425544601388777"
-      },
-      {
-        "file": "mini-backend/data.json",
-        "hash": "3547593647173522216"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-DXQPSICQ.js",
-        "hash": "7949157912080094535"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-B37IXBFJ.js.map",
-        "hash": "352216477438187591"
-      },
-      {
-        "file": "public/assets/svg/upload.svg",
-        "hash": "7384061626821279379"
-      },
-      {
-        "file": "public/assets/fonts/JetBrainsMono-LightItalic.woff2",
-        "hash": "9220599152812126991"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/ngx-cookie-service.js.map",
-        "hash": "6518848069776943636"
-      },
-      {
-        "file": "public/assets/svg/eye.svg",
-        "hash": "11117476148174672795"
+        "file": ".git/refs/stash",
+        "hash": "6760497568637219159"
       },
       {
         "file": "tools/generators/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": "README.md",
-        "hash": "13825516765265236138"
+        "file": ".idea/nx-angular-config.xml",
+        "hash": "15047323392680224010"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/zone__js.js",
-        "hash": "12704328833797604064"
+        "file": ".git/FETCH_HEAD",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-7DPHYZ4E.js",
+        "hash": "15288208965287941410"
+      },
+      {
+        "file": "public/assets/images/bgimg.png",
+        "hash": "7642439707095056499"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-B37IXBFJ.js.map",
+        "hash": "352216477438187591"
+      },
+      {
+        "file": "public/assets/svg/smile.svg",
+        "hash": "16031336439036594519"
+      },
+      {
+        "file": ".git/objects/b3/ce20b92825447a64eb996fae9da4e2a5585273",
+        "hash": "892932708784389281"
+      },
+      {
+        "file": ".git/objects/4f/49221f0a385555275a0a1b62f97369337f8030",
+        "hash": "18362932908997926712"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": ".git/objects/5a/121747d69d5a95e617ecd2d60433e707e02282",
+        "hash": "12147828096700946404"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_effects.js.map",
+        "hash": "9786342291646239547"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_router.js.map",
+        "hash": "6259558350311630883"
+      },
+      {
+        "file": ".git/objects/76/7480da25e4b994886be0abb6bf1022fd652542",
+        "hash": "9474917048725994508"
       },
       {
         "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-WDMUDEB6.js",
         "hash": "3393899181551614386"
       },
       {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
+        "file": ".git/objects/4d/59033f3910b5d8097f3c3bbbd27c422cd4adae",
+        "hash": "1942329446737330705"
       },
       {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "6391898694969712565"
+        "file": "public/assets/svg/chat.svg",
+        "hash": "248610857705071858"
+      },
+      {
+        "file": ".git/COMMIT_EDITMSG",
+        "hash": "5891402852232471644"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "8944620160701465"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13299511145039150653"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_core.js",
+        "hash": "3263207106229877078"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_platform-browser.js.map",
+        "hash": "9947606979680686569"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-PUCEQW7N.js",
+        "hash": "17407103050261871933"
+      },
+      {
+        "file": ".git/objects/da/b3bfee973db544e6d96f20046935c539f6030b",
+        "hash": "18044754895236685875"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-XQIII63V.js.map",
+        "hash": "11789335753056102195"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-I6HPHQR4.js.map",
+        "hash": "16949458728946941031"
+      },
+      {
+        "file": ".git/objects/8b/84c5bd7700fc8afd18a6d65147e4bcda704eef",
+        "hash": "4877167459741741509"
+      },
+      {
+        "file": ".git/refs/heads/main",
+        "hash": "4606690836190611796"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/ngx-cookie-service.js.map",
+        "hash": "6518848069776943636"
+      },
+      {
+        "file": ".git/objects/0a/a963f8513d21307468213b1ac351f9efc1d407",
+        "hash": "12551993680182653794"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-MediumItalic.woff2",
+        "hash": "439627487028062794"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-SemiBoldItalic.woff2",
+        "hash": "1220129604004450718"
+      },
+      {
+        "file": ".git/objects/e7/31e2befbd50b66ec058163be1fc9f308aa8c91",
+        "hash": "9413814022751628922"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals.js.map",
+        "hash": "192008781977219617"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-OUVCBQFH.js.map",
+        "hash": "12444532862618638689"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps_ssr/package.json",
+        "hash": "8630294688235076505"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps_ssr/_metadata.json",
+        "hash": "16468493388282485954"
+      },
+      {
+        "file": "public/assets/svg/comment-icon.svg",
+        "hash": "17027744262192349281"
+      },
+      {
+        "file": "mini-backend/db.js",
+        "hash": "14532280198081343168"
+      },
+      {
+        "file": ".git/objects/42/b58ccb37c5bc49a3d5bb38e03619f5810fe2ef",
+        "hash": "8374835276859487239"
+      },
+      {
+        "file": ".git/objects/4f/3b967a69f489f631a25c1b8711c2375fadfbec",
+        "hash": "13168805072373867487"
+      },
+      {
+        "file": ".git/objects/b7/97dca48733d84ee50f2ea25619d66e2a554900",
+        "hash": "7745095299863359958"
+      },
+      {
+        "file": ".git/logs/refs/stash",
+        "hash": "10561250701052476644"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store.js",
+        "hash": "8102087024177257552"
+      },
+      {
+        "file": "public/assets/svg/dotted-icon.svg",
+        "hash": "8679218149674364408"
+      },
+      {
+        "file": "public/assets/svg/link-follow.svg",
+        "hash": "7085956096587385969"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/luxon.js",
+        "hash": "5246116310469530499"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_store-devtools.js",
+        "hash": "15795859540508430887"
+      },
+      {
+        "file": ".git/objects/6c/6fae8f16f43d8173b85e66e51f4b321c712617",
+        "hash": "15762913087274373274"
+      },
+      {
+        "file": ".git/objects/9a/600689846a4414ed8b8b10ce3fc037ad76cea4",
+        "hash": "6337047737208349247"
+      },
+      {
+        "file": ".git/objects/df/b89409ad18a92a0cdf3fdf3e12cb988e8ef34e",
+        "hash": "6518102191215153702"
+      },
+      {
+        "file": ".git/refs/remotes/origin/main",
+        "hash": "4606690836190611796"
+      },
+      {
+        "file": ".git/logs/refs/remotes/origin/HEAD",
+        "hash": "2814619270605329988"
+      },
+      {
+        "file": ".git/objects/89/f253f7adc54efbc44458d6865b7d2a125d0335",
+        "hash": "384961025775483173"
+      },
+      {
+        "file": ".git/objects/ea/327a1226c3e1619588dbc2d18d99d91596695f",
+        "hash": "17171629190253933317"
+      },
+      {
+        "file": ".git/objects/ad/19d401ea6faa78c7fcf723c45ab1720925997a",
+        "hash": "11760850218081107867"
+      },
+      {
+        "file": "public/assets/svg/filter-btn.svg",
+        "hash": "7036003158479974598"
+      },
+      {
+        "file": ".git/objects/20/5d36aadc1a5c19066ac2aa64ee411c785eea4c",
+        "hash": "1686601497967664619"
+      },
+      {
+        "file": ".idea/social.iml",
+        "hash": "2091662290190038625"
+      },
+      {
+        "file": ".git/objects/57/d5de5e884916b35149a95065720b469dd96652",
+        "hash": "11722136461897949810"
+      },
+      {
+        "file": ".git/objects/93/955195a76adef323231c9ba1848088a47b069e",
+        "hash": "7516997384660535265"
+      },
+      {
+        "file": ".git/objects/c6/23c553d072d4e98cad03f4eb32c393c4cf1022",
+        "hash": "6538649746296495853"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Thin.woff2",
+        "hash": "12513629612638962945"
+      },
+      {
+        "file": "public/assets/fonts/JetBrainsMono-Italic.woff2",
+        "hash": "18212672132293203333"
+      },
+      {
+        "file": ".git/objects/06/f658a91da52f9fb75af0c220f7e3bd5f25379e",
+        "hash": "13429287574695974463"
+      },
+      {
+        "file": ".git/logs/refs/remotes/origin/macOS",
+        "hash": "3079627490259770363"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-V7CMOOY7.js",
+        "hash": "1273488727735029310"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/rxjs_webSocket.js.map",
+        "hash": "2624033660610167874"
+      },
+      {
+        "file": ".git/objects/9f/3a7fb6627623bf6183335a7be9654958c43007",
+        "hash": "12718133808572626845"
       },
       {
         "file": "public/assets/images/dropicon.png",
         "hash": "16969652069534225482"
       },
       {
-        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-DXQPSICQ.js.map",
-        "hash": "6227331744083822559"
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals.js",
+        "hash": "4623065225189112262"
       },
       {
-        "file": "public/assets/svg/logout.svg",
-        "hash": "5215368976882033774"
+        "file": "public/assets/fonts/JetBrainsMono-SemiBold.woff2",
+        "hash": "17010626544071602252"
       },
       {
-        "file": "package-lock.json",
-        "hash": "4824542902834569127"
+        "file": ".idea/modules.xml",
+        "hash": "14492296385763978930"
+      },
+      {
+        "file": "public/assets/images/avatar-placeholder.png",
+        "hash": "14302772689269306324"
+      },
+      {
+        "file": ".git/objects/99/a897ba715a8757f312a16bba8c242adee7cbd9",
+        "hash": "11782914235474275659"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-4PXKNON4.js.map",
+        "hash": "2113281058244603172"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_router.js",
+        "hash": "17806577523705527267"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/luxon.js.map",
+        "hash": "4215680833457895494"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-XQIII63V.js",
+        "hash": "4709040128533591646"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-UVWTBJUY.js.map",
+        "hash": "5630774242859007334"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "3689349852385056702"
+      },
+      {
+        "file": ".git/objects/fe/3e2f5d9d4fb9ce16c3811bd2ce49107cd62cdd",
+        "hash": "1093319187575019099"
+      },
+      {
+        "file": ".git/objects/31/aed3cf69eda520d9f3d59586ad9d23c22bcc82",
+        "hash": "8204347863805252518"
+      },
+      {
+        "file": ".git/objects/bb/647b75de269f6f3d24fdca293c8d1b5c26af64",
+        "hash": "4610401046812017922"
+      },
+      {
+        "file": ".git/objects/d2/634bf60d899e6155d309173a1036484695bc84",
+        "hash": "16117530743434429177"
+      },
+      {
+        "file": ".git/objects/74/8447cf5d64fadc88f27a1028de18426a647e9e",
+        "hash": "3907812438956528192"
+      },
+      {
+        "file": "mini-backend/package-lock.json",
+        "hash": "12287817668779388155"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@angular_platform-browser.js",
+        "hash": "4339759815933727444"
+      },
+      {
+        "file": "public/assets/svg/share-icon.svg",
+        "hash": "18224206483068158538"
+      },
+      {
+        "file": ".git/objects/c9/229c7913fd0f874b986f300d4fe7f460d2639d",
+        "hash": "17516516005728205897"
+      },
+      {
+        "file": ".git/objects/ff/11ad4a743ce08ddfb624000e37995784412c1e",
+        "hash": "17827075667328932722"
       },
       {
         "file": "public/assets/svg/search-icon.svg",
         "hash": "5169465720748401989"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "8944620160701465"
+        "file": "public/assets/svg/community.svg",
+        "hash": "9043325429042048553"
+      },
+      {
+        "file": ".git/logs/refs/heads/main",
+        "hash": "17210906145975648209"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/chunk-OUVCBQFH.js",
+        "hash": "4426252822737592890"
+      },
+      {
+        "file": ".git/objects/d8/8d03bf3e657415acdb7d8e254bedcf9220fc46",
+        "hash": "496841530390239128"
+      },
+      {
+        "file": ".git/objects/64/dc92cd2b3980955bbcfa927446458c790b6187",
+        "hash": "17536036393421922579"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "14583305223952646078"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/.tsbuildinfo",
+        "hash": "2175165396294132653"
+      },
+      {
+        "file": ".angular/cache/20.1.0/tik-talk/vite/deps/@ngrx_signals_rxjs-interop.js",
+        "hash": "17647268074829773080"
       }
     ],
     "projectFileMap": {
