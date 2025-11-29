@@ -1,0 +1,104 @@
+<p class="h2">Experiment 1</p>
+
+<form [formGroup]="sendForm" (ngSubmit)="onSubmit($event)" class="form-wrapper">
+  <h4 class="h4">Form</h4>
+
+  <label
+    >Вид
+    <select class="tt-input" formControlName="type">
+      <option [value]="ReceiverType.PERSON">Физическое лицо</option>
+      <option [value]="ReceiverType.LEGAL">Юридическое лицо</option>
+    </select>
+  </label>
+
+  <label class="tt-control-label"
+    >Имя
+    <input
+      formControlName="name"
+      class="tt-input"
+      type="text"
+      placeholder="Введите имя"
+    />
+  </label>
+
+  @if (sendForm.controls.name.touched &&
+  sendForm.controls.name.hasError('required')) {
+  <small>*Это поле обязательно!</small>
+  } @if (sendForm.controls.type.value === ReceiverType.LEGAL) {
+  <label class="tt-control-label"
+    >ИНН
+    <input
+      formControlName="inn"
+      class="tt-input"
+      type="text"
+      placeholder="Введите ИНН:"
+    />
+  </label>
+  @if (sendForm.controls.name.touched &&
+  sendForm.controls.name.hasError('required')) {
+  <small>*Это поле обязательно!</small>
+  } } @else {
+  <label class="tt-control-label"
+    >Фамилия
+    <input
+      formControlName="lastName"
+      class="tt-input"
+      type="text"
+      placeholder="Введите Фамилию"
+    />
+  </label>
+  }
+  <div class="address-nav">
+    <h4 class="h4">Адрес доставки</h4>
+    <button class="btn addres-nav-btn" (click)="addAddress()">
+      <span class="address-nav-btn-span">+</span>
+    </button>
+  </div>
+
+  @for(group of sendForm.controls.addresses.controls; track group; let i =
+  $index){
+  <div class="form-adress" [formGroup]="group">
+    <label class="tt-control-label"
+      >Город
+      <input
+        formControlName="city"
+        class="tt-input"
+        type="text"
+        placeholder="Введите имя"
+      />
+    </label>
+
+    <label class="tt-control-label"
+      >Улица
+      <input
+        formControlName="street"
+        class="tt-input"
+        type="text"
+        placeholder="Введите имя"
+      />
+    </label>
+
+    <label class="tt-control-label"
+      >Дом
+      <input
+        formControlName="building"
+        class="tt-input"
+        type="text"
+        placeholder="Введите имя"
+      />
+    </label>
+
+    <label class="tt-control-label"
+      >Квартира
+      <input
+        formControlName="apartment"
+        class="tt-input"
+        type="text"
+        placeholder="Введите имя"
+      />
+    </label>
+  </div>
+  <button class="btn form-submit" (click)="deleteAddress(i)">Удалить</button>
+  }
+  <button class="btn form-submit">Подтвердить</button>
+</form>

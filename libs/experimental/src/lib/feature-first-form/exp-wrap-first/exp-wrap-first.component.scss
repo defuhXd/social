@@ -1,0 +1,46 @@
+:host {
+  padding: 24px;
+  overflow: scroll;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-adress {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .tt-control-label {
+    width: 45%;
+  }
+}
+
+.form-submit {
+  height: 44px;
+
+  &:hover,
+  &:focus {
+    transition: all 0.3s ease;
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+  }
+}
+
+.address-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addres-nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+.address-nav-btn-span {
+  width: 24px;
+  height: 24px;
+}

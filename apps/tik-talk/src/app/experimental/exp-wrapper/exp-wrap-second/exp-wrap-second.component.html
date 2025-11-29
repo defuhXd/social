@@ -1,0 +1,18 @@
+<form [formGroup]="form">
+  <p class="h4">Анкета (Вакансии/Резюме)</p>
+
+  <label
+    >Вид:
+    <select class="tt-input" formControlName="type">
+      <option [value]="ReceiverType.EMPLOYER">Вакансии</option>
+      <option [value]="ReceiverType.WORKER">Резюме</option>
+    </select>
+  </label>
+
+  @if (form.controls.type.value === ReceiverType.EMPLOYER) {
+  <app-form-employer></app-form-employer>
+
+  } @else {
+  <app-form-worker></app-form-worker>
+  }
+</form>

@@ -1,0 +1,92 @@
+@if (me$ | async; as profile) {
+<header class="profile-page__header">
+  <app-profile-header
+    class="profile-header"
+    [profile]="profile"
+  ></app-profile-header>
+
+  <div class="settings-page-skills__wrapper">
+    <h3 class="h6 mb16">Навыки</h3>
+    <div class="skill-tag__wrapper mb32">
+      @for (skill of profile.stack; track skill) {
+      <div class="skill-tag">{{ skill }}</div>
+      }
+    </div>
+  </div>
+
+  <div class="settings-page-description__wrapper">
+    <h3 class="h6 mb16">О себе</h3>
+    <p class="medium-text">{{ profile.description }}</p>
+  </div>
+  <button class="btn2 settings-exp" [routerLink]="['/experiment']">
+    <span>Experiment</span>
+    <svg class="settings-exp-btn" icon="settings"></svg>
+  </button>
+</header>
+}
+
+<form class="profile-form__wrapper" [formGroup]="formSetting">
+  <div class="profile-form">
+    <div class="two-columns">
+      <label class="tt-form-label">
+        <span class=" ">Имя</span>
+        <input type="text" class="tt-form-input" formControlName="firstName" />
+      </label>
+
+      <label class="tt-form-label">
+        <span class=" ">Фамилия</span>
+        <input type="text" class="tt-form-input" formControlName="lastName" />
+      </label>
+    </div>
+
+    <label class="tt-form-label">
+      <span class=" ">Telegram username</span>
+      <input type="text" class="tt-form-input" formControlName="username" />
+    </label>
+
+    <label class="tt-form-label">
+      <span class=" ">О себе</span>
+      <textarea
+        class="tt-form-input tt-form__textarea"
+        formControlName="description"
+        rows="4"
+      ></textarea>
+    </label>
+
+    <label class="tt-form-label">
+      <span class=" ">Аватарка</span>
+      <app-avatar-upload #avatarUpload></app-avatar-upload>
+    </label>
+
+    <label class="tt-form-label">
+      <span class=" ">Навыки (stack)</span>
+      <input type="text" class="tt-form-input" formControlName="stack" />
+    </label>
+  </div>
+
+  <div class="btns__wrapper">
+    <div class="btn-delete-logout__wrapper">
+      <button class="btn btn2 btn-delete">
+        <svg icon="delete" class="btn-d-l__icon"></svg>
+      </button>
+      <button class="btn btn2 btn-logout">
+        <a [routerLink]="['login']" class="btn-d-l__link">
+          <svg icon="logout" class="btn-d-l__icon"></svg>
+        </a>
+      </button>
+    </div>
+
+    <div class="btn-save-cancel__wrapper">
+      <button class="btn btn2 btn-cancel" [routerLink]="['/profile/me']">
+        Отмена
+      </button>
+      <button
+        class="btn btn-save"
+        type="button"
+        (click)="onSave(avatarUpload.file)"
+      >
+        Сохранить
+      </button>
+    </div>
+  </div>
+</form>

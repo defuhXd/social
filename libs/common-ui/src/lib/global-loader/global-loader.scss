@@ -1,0 +1,35 @@
+:host{
+
+}
+
+.gl {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 75px;
+  height: 75px;
+  z-index: 10000;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.gl__spinner {
+  width: 100%;
+  height: 100%;
+  animation: gl-rotate 1.2s linear infinite;
+}
+
+.gl__path {
+  stroke: currentColor;
+  color: var(--primary-color);
+  stroke-linecap: round;
+  animation: gl-dash 1.6s ease-in-out infinite;
+}
+
+@keyframes gl-rotate { 100% { transform: rotate(360deg); } }
+@keyframes gl-dash {
+  0%   { stroke-dasharray: 1,150;  stroke-dashoffset: 0; }
+  50%  { stroke-dasharray: 90,150; stroke-dashoffset: -35; }
+  100% { stroke-dasharray: 90,150; stroke-dashoffset: -124; }
+}

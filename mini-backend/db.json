@@ -1,0 +1,59 @@
+{
+  "workers": [
+    {
+      "id": 0,
+      "firstName": "Мурад",
+      "lastName": "Мурад",
+      "email": "murad@gmail.com",
+      "phone": "+7 (900) 000-12-34",
+      "birthDate": "2000-12-11",
+      "educationType": "UNIVERSITY",
+      "education": "",
+      "skills": "",
+      "experience": "",
+      "profession": "",
+      "addresses": [
+        {
+          "city": "Москва",
+          "street": "Ленина",
+          "building": "12",
+          "apartment": "1"
+        },
+        {
+          "city": "Ленинград",
+          "street": "Сталина",
+          "building": "13",
+          "apartment": "13"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "firstName": "Мурад",
+      "lastName": "Мурад",
+      "email": "murad@gmail.com",
+      "phone": "+7 (900) 000-12-34",
+      "birthDate": "2000-12-11",
+      "educationType": "UNIVERSITY",
+      "education": "",
+      "skills": "",
+      "experience": "",
+      "profession": "",
+      "addresses": [
+        {
+          "city": "Москва",
+          "street": "Ленина",
+          "building": "12",
+          "apartment": "1"
+        },
+        {
+          "city": "Ленинград",
+          "street": "Сталина",
+          "building": "13",
+          "apartment": "13"
+        }
+      ]
+    }
+  ],
+  "jobs": []
+}

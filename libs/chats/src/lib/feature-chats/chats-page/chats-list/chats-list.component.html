@@ -1,0 +1,27 @@
+<div class="chats-filter-input-wrapper">
+  <label class="tt-chat-label">
+    <span class=""></span>
+    <input
+      type="text"
+      class="tt-form-input"
+      placeholder="Искать..."
+      [formControl]="filterChatControl"
+    />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+  <button class="mobile-btn btn2"
+          (click)="onMobBtnClick()"
+  >☰</button>
+</div>
+
+<div #listWrapper class="list-wrapper">
+  @for (chat of chats$ | async; track chat.id) {
+    <button
+      chats
+      [expanded]="expanded"
+      [chat]="chat"
+      [routerLink]="[chat.id]"
+      routerLinkActive="active"
+    ></button>
+  }
+</div>

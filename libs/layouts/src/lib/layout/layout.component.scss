@@ -1,0 +1,13 @@
+:host {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100dvh;
+}
+.workspace {
+  padding: 24px;
+}
+@media screen and (max-width: 1200px) {
+  :host{
+    grid-template-columns: 150px 1fr;
+  }
+}

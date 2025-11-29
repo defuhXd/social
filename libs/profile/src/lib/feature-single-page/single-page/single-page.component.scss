@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: 800;
+}
+.single-page__eror {
+  text-align: center;
+}
+.single-page__eror-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  & img {
+    width: 130px;
+    height: 130px;
+  }
+}

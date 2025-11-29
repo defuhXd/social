@@ -1,0 +1,37 @@
+@if (profile) {
+<div class="profile-card">
+  <div class="avatar-name">
+    <img
+      [routerLink]="['/profile', profile.id]"
+      [src]="profile.avatarUrl | imgUrl"
+      [alt]="profile.lastName"
+      class="profile-card__avatar"
+    />
+    <div class="profile-card__name">
+      <a [routerLink]="['/profile', profile.id]"
+        ><strong class="h6"
+          >{{ profile.firstName }} {{ profile.lastName }}</strong
+        ></a
+      >
+      <a [routerLink]="['/profile', profile.id]"
+        ><span class="subtitle">{{ `@${profile.username}` }}</span></a
+      >
+    </div>
+  </div>
+
+  <div class="profile-card__description">{{ profile.description }}</div>
+
+  <div class="profile-card__tags">
+    @for (skill of profile.stack; track skill) {
+    <div class="skill-tag">{{ skill }}</div>
+    }
+  </div>
+
+  <div class="profile-card__action-btns">
+    <button class="btn btn-subscribe">Подписаться</button>
+    <button class="btn btn-link">
+      <img src="/assets/svg/link-follow.svg" alt="" />
+    </button>
+  </div>
+</div>
+} @else { }

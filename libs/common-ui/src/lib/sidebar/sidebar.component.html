@@ -1,0 +1,75 @@
+<img
+  src="/assets/svg/logo-small.svg"
+  alt=""
+  class="ml16 mb20"
+  [routerLink]="['/']"
+/>
+<nav>
+  <ul class="main-menu-list">
+    @for (item of menuItems; track item) {
+      <li>
+        <a class="menu-item" [routerLink]="[item.link]" routerLinkActive="active">
+          <svg [icon]="item.icon" class="menu-item__svg"></svg>
+          <span>{{ item.label }}</span>
+          @if (item.link === 'chats') {
+            @if (unreadMessages(); as unread) {
+              @if (unread > 0) {
+                <span class="menu-item__badge">
+                  {{ unread }}
+                </span>
+              }
+            }
+          }
+        </a>
+      </li>
+    }
+  </ul>
+</nav>
+
+<p class="medium-text mt20">Подписчики</p>
+@for (profile of subscribers$ | async; track profile.id) {
+  <app-subscriber-card [profile]="profile"></app-subscriber-card>
+}
+
+<div class="mt20 to-subscribers">
+  <a [routerLink]="['/subscribers']" class="to-subscribers__link medium-text">
+    <p>Все подписчики</p>
+    <svg icon="arrow" class="to-subscribers-icon"></svg>
+  </a>
+</div>
+
+<footer class="sidebar__footer">
+  <app-sidebar-timer class="sidebar__timer"></app-sidebar-timer>
+
+  <div class="sidebar-login">
+    @if (me(); as me) {
+      @if (me.avatarUrl) {
+        <img
+          [routerLink]="['/profile/me']"
+          class="sidebar-avatar"
+          [src]="me.avatarUrl | imgUrl"
+          alt=""
+        />
+      } @else {
+        <img
+          [routerLink]="['/profile/me']"
+          class="sidebar-avatar"
+          src="/assets/images/avatar-placeholder.png"
+          alt=""
+        />
+      }
+      <div class="medium-text username-text" [routerLink]="['/profile/me']">
+        {{ me.username }}
+      </div>
+
+      <div class="sidebar__footer-btn">
+        <a [routerLink]="['settings']" class="settings-btn">
+          <svg icon="settings" class="settings-btn__svg"></svg>
+        </a>
+        <a [routerLink]="['login']" class="logout-btn">
+          <svg icon="logout" class="logout-btn__svg"></svg>
+        </a>
+      </div>
+    }
+  </div>
+</footer>

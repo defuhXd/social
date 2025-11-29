@@ -1,0 +1,18 @@
+@if (profile(); as profile) {
+
+<button class="btn2 chat-header-btns">
+  <svg icon="arrow" class="chat-btn-svg left"></svg>
+</button>
+
+<div class="user-data">
+  <app-avatar-circle
+    class="size32"
+    [avatarUrl]="profile.avatarUrl"
+  ></app-avatar-circle>
+  <div class="subtitle">{{ profile.firstName }} {{ profile.lastName }}</div>
+</div>
+
+<button class="btn2 chat-header-btns">
+  <svg icon="dotted-icon" class="chat-btn-svg dotted"></svg>
+</button>
+}

@@ -1,0 +1,26 @@
+<div class="settings-img__wrapper">
+  <img [src]="preview()" class="avatar-upload" alt="" />
+
+  <div
+    dnd
+    class="dropzone"
+    tabindex="0"
+    (keyup.enter)="filedrop.click()"
+    (fileDropped)="onFileDropped($event)"
+  >
+    <svg icon="upload" class="dropzone__icon"></svg>
+    <span class="medium-text dropzone__text">
+      Перетащите изображение или
+      <span class="dropzone-upload__text">Загрузите</span>
+      <br />
+      (разрешение до 5,000 x 5,000 px)
+    </span>
+    <input
+      type="file"
+      tabindex="-1"
+      class="avatar-input"
+      #filedrop
+      (change)="fileBrowserHandler($event)"
+    />
+  </div>
+</div>

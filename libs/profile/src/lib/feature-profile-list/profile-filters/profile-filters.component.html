@@ -1,0 +1,29 @@
+<form class="profile-search-form" [formGroup]="searchForm">
+  <label class="tt-form-label">
+    <span class=" ">Имя пользователя</span>
+    <input type="text" class="tt-form-input" formControlName="firstName" />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+
+  <label class="tt-form-label">
+    <span class=" ">Фамилия </span>
+    <input type="text" class="tt-form-input" formControlName="lastName" />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+
+  <label class="tt-form-label">
+    <span class=" ">Город</span>
+    <input type="text" class="tt-form-input" formControlName="city" />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+
+  <label class="tt-form-label">
+    <span class=" ">Навыки (stack)</span>
+    <input type="text" class="tt-form-input" formControlName="stack" />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+</form>
+
+<button class="btn2 btn-filter hover-filter">
+  <svg class="btn-filter__svg" icon="filter-btn"></svg>
+</button>

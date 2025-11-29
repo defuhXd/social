@@ -1,0 +1,48 @@
+:host {
+  background: var(--dark-color);
+  border: 1px solid var(--light-color);
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 1fr 44px;
+  gap: 16px;
+  align-items: center;
+}
+
+.profile-search-form {
+  display: flex;
+  gap: 40px;
+}
+.tt-form-label {
+  width: 100%;
+}
+
+.btn-filter {
+  place-content: center;
+  justify-self: end;
+  width: 46px;
+  height: 46px;
+  &:hover,
+  &:focus {
+    .btn-filter__svg {
+      color: var(--primary-color);
+    }
+  }
+}
+.tt-form-label {
+  position: relative;
+}
+
+.tt-chat-svg {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  width: 16px;
+  height: 16px;
+  z-index: 10;
+}
+
+.btn-filter__svg {
+  width: 13px;
+  height: 13px;
+  color: var(--light-color);
+}

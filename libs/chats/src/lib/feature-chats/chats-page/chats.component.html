@@ -1,0 +1,9 @@
+<app-chats-list
+  class="chats-list"
+  (mobBtn)="onToggleShow()"
+  [expanded]="showFullChatList"
+></app-chats-list>
+
+<div>
+  <router-outlet></router-outlet>
+</div>

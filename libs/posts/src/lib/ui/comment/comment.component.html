@@ -1,0 +1,68 @@
+@if(comment(); as comment){
+<app-avatar-circle
+  class="size32"
+  [avatarUrl]="comment.author.avatarUrl"
+></app-avatar-circle>
+<div class="comment-body medium-text">
+  <div class="comment-author-wrapper">
+    <strong class="comment-author"
+    >{{ comment.author.firstName }} {{ comment.author.lastName }}
+      <span class="comment-time">{{ comment.createdAt | timeAgo }}</span>
+    </strong>
+
+    <div class="post-btn-wrapper">
+
+      <button
+        type="button"
+        class="btn-post-other"
+        (click)="toggleMenu($event)"
+        aria-haspopup="true"
+        [attr.aria-expanded]="menuOpen()"
+        aria-controls="post-menu">
+        <svg icon="dotted-icon" class="post-other__svg"></svg>
+      </button>
+
+      <div class="post-edit-delete"
+           id="post-menu"
+           [class.show]="menuOpen()"
+           (click)="$event.stopPropagation()"
+           appClickOutside
+           (clickedOutside)="closeMenu()"
+           role="menu">
+        <button class="btn2 edit-btn" (click)="openEditor($event)">Редактировать</button>
+        <button (click)="deleteComment(comment.id)" class="btn2 edit-btn">Удалить</button>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="comment-text">{{ comment.text }}</div>
+</div>
+
+  <div
+    class="edit-overlay"
+    [class.show]="editOpen()"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="edit-title"
+    (click)="cancelEdit()"
+  >
+    <div class="edit-modal" (click)="$event.stopPropagation()">
+      <h3 id="edit-title" class="h6 mb8">Редактировать комментарий</h3>
+
+      <app-tt-input
+        class="tt-edit-input"
+        #editorInputRef
+        [isEditComment]="true"
+        [initialText]="comment.text"
+        (editComment)="onEditComment($event)"
+      ></app-tt-input>
+
+
+      <div class="actions">
+        <button class="btn2" (click)="cancelEdit()">Отмена</button>
+<!--        <button class="btn" (click)="saveEdit()" [disabled]="loading() || !draft().trim()">Сохранить</button>-->
+      </div>
+    </div>
+  </div>
+}

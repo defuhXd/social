@@ -1,0 +1,29 @@
+@if (profile) {
+<div class="single-page__wrapper">
+  <div class="single-page__avatar">
+    <img [src]="profile.avatarUrl | imgUrl" [alt]="profile.lastName" />
+  </div>
+
+  <div class="single-page__name">
+    <strong>{{ profile.firstName }} {{ profile.lastName }}</strong>
+    <a href=""
+      ><span>{{ `@${profile.username}` }}</span></a
+    >
+  </div>
+  <div class="single-page__description">{{ profile.description }}</div>
+  <div class="single-page__tags">
+    @for (skill of profile.stack; track skill) {
+    <div class="skill-tag">{{ skill }}</div>
+    }
+  </div>
+</div>
+} @else {
+<div class="single-page__eror-wrapper">
+  <div class="single-page__eror">
+    404 eror <br />
+    not found;
+  </div>
+  <img src="/assets/svg/eye-cry.svg" alt="" />
+</div>
+
+}

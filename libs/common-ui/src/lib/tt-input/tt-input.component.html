@@ -1,0 +1,41 @@
+@if (me(); as profile) {
+<app-avatar-circle
+  class="size32"
+  [avatarUrl]="profile.avatarUrl"
+></app-avatar-circle>
+}
+<textarea
+  #messageInput
+  [(ngModel)]="postText"
+  class="hidden-textarea"
+  (input)="onTextAreaInput($event)"
+  [placeholder]="isEditPost() ? 'Измените текст поста…' : 'Напишите что-нибудь...'"
+></textarea>
+<!--  (keydown.enter.prevent)="onPost()"-->
+
+<div class="btns__wrapper">
+  <div class="emojies-wrapper">
+    <button class="btn-smile" (click)="togglePicker()">
+      <svg icon="smile" class="btn-smile__svg"></svg>
+    </button>
+    @if (showPicker) {
+    <div class="picker-container">
+      <emoji-mart
+        title="Эмодзи 😎"
+        set="apple"
+        [emojiSize]="28"
+        [perLine]="9"
+        [showPreview]="false"
+        [i18n]="russianLabels"
+        (emojiSelect)="addEmoji($event)"
+        [exclude]="[]"
+      ></emoji-mart>
+    </div>
+    }
+  </div>
+  <button class="btn-icon"
+          (click)="onPost()"
+          [disabled]="!postText.trim()">
+    <svg icon="share-icon" class="btn-icon__svg"></svg>
+  </button>
+</div>

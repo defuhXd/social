@@ -1,0 +1,18 @@
+@if (profile$ | async; as profile) {
+  @if (profile && (me$ | async); as me) {
+    @if (profile.id == me.id) {
+      <app-tt-input
+        [isPostInput]="true"
+        (createPost)="onCreatePost($event)"
+        class="post-input"></app-tt-input>
+    }
+  }
+
+  <div class="posts__wrapper" #postsWrapper>
+    @for (post of feed(); track post.id) {
+      <app-post [post]="post"></app-post>
+    }
+  </div>
+
+}
+<app-global-Loader></app-global-Loader>

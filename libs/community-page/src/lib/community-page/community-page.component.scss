@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.community-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.community-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  width: min-content;
+  color: var(--dark-color);
+  text-wrap: nowrap;
+}
+.community-btn-svg {
+  width: 16px;
+  height: 16px;
+}

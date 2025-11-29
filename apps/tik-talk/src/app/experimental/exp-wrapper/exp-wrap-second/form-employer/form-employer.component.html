@@ -1,0 +1,250 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-submit-wrapper">
+    <button
+      type="button"
+      class="btn form-submit"
+      (click)="addEmploy()"
+      [disabled]="isSaving"
+    >
+      Добавить вакансию
+    </button>
+  </div>
+
+  @for (group of form.controls.employers.controls; track group; let i = $index)
+  {
+  <div class="employ-form" [formGroup]="group">
+    <div class="form-top">
+      <p class="h4">Вакансия {{ i + 1 }}</p>
+      <div class="form-top-btn">
+        <button
+          type="button"
+          class="btn"
+          (click)="deleteEmploy(group)"
+          [disabled]="isSaving"
+        >
+          Удалить вакансию
+        </button>
+      </div>
+    </div>
+
+    <div class="form-center">
+      <label class="tt-control-label"
+        >Наименование компании:
+        <input
+          formControlName="companyName"
+          class="tt-input"
+          [class.error]="
+            group.controls['companyName'].invalid &&
+            group.controls['companyName'].touched
+          "
+          type="text"
+          placeholder="Введите имя:"
+        />
+        @if (group.controls['companyName'].touched &&
+        group.controls['companyName'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Сайт:
+        <input
+          formControlName="website"
+          class="tt-input"
+          [class.error]="
+            group.controls['website'].invalid &&
+            group.controls['website'].touched
+          "
+          type="text"
+          placeholder="Введите сайт:"
+        />
+        @if (group.controls['website'].touched &&
+        group.controls['website'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Образование (степень):
+        <select class="tt-input" formControlName="educationType">
+          <option [value]="ReceiverType.VAL1">
+            Высшее (бакалавриат, магистратура)
+          </option>
+          <option [value]="ReceiverType.VAL2">
+            Среднее специальное (колледж)
+          </option>
+          <option [value]="ReceiverType.VAL3">Среднее (школа)</option>
+          <option [value]="ReceiverType.VAL4">Другое</option>
+          <option [value]="ReceiverType.VAL5">Нет</option>
+        </select>
+      </label>
+
+      <label class="tt-control-label"
+        >Образование:
+        <input
+          formControlName="education"
+          class="tt-input"
+          type="text"
+          placeholder="Введите образование:"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Профессия:
+        <input
+          formControlName="profession"
+          class="tt-input"
+          [class.error]="
+            group.controls['profession'].invalid &&
+            group.controls['profession'].touched
+          "
+          type="text"
+          placeholder="Введите профессию:"
+        />
+        @if (group.controls['profession'].touched &&
+        group.controls['profession'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Навыки:
+        <input
+          formControlName="skills"
+          class="tt-input"
+          type="text"
+          placeholder="Введите навыки:"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Стаж:
+        <select class="tt-input" formControlName="experience">
+          <option [value]="ExpAge.VAL1">Нет</option>
+          <option [value]="ExpAge.VAL2">1+ год</option>
+          <option [value]="ExpAge.VAL3">2+ года</option>
+          <option [value]="ExpAge.VAL4">3+ лет</option>
+          <option [value]="ExpAge.VAL5">5+ лет</option>
+        </select>
+      </label>
+
+      <label class="tt-control-label"
+        >Почта:
+        <input
+          formControlName="email"
+          class="tt-input"
+          [class.error]="
+            group.controls['email'].invalid && group.controls['email'].touched
+          "
+          type="text"
+          placeholder="Введите почту:"
+        />
+        @if (group.controls['email'].touched &&
+        group.controls['email'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Телефон:
+        <input
+          formControlName="phone"
+          [class.error]="
+            group.controls['phone'].invalid && group.controls['phone'].touched
+          "
+          class="tt-input"
+          type="text"
+          (input)="onPhoneInput($event, group)"
+          placeholder="+7 (9__) ___-__-__"
+        />
+        @if (group.controls['phone'].touched &&
+        group.controls['phone'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+    </div>
+
+    <h4>Адреса:</h4>
+    <div class="address-btns">
+      <button
+        class="btn"
+        type="button"
+        (click)="addAddress(group)"
+        [disabled]="isSaving"
+      >
+        Добавить адрес
+      </button>
+      <button
+        class="btn"
+        type="button"
+        (click)="editEmploy(group)"
+        [disabled]="isSaving"
+      >
+        Сохранить изменения
+      </button>
+    </div>
+
+    @for (addressGroup of getAddresses(group).controls; track addressGroup; let
+    j = $index) {
+    <div class="form-address" [formGroup]="addressGroup">
+      <label class="tt-control-label"
+        >Город:
+        <input
+          formControlName="city"
+          class="tt-input"
+          type="text"
+          placeholder="Введите город"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Улица:
+        <input
+          formControlName="street"
+          class="tt-input"
+          type="text"
+          placeholder="Введите улицу"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Дом:
+        <input
+          formControlName="building"
+          class="tt-input"
+          type="text"
+          placeholder="Введите дом"
+        />
+      </label>
+
+      <div class="form-address-lastel">
+        <label class="tt-control-label"
+          >Квартира:
+          <input
+            formControlName="apartment"
+            class="tt-input"
+            type="text"
+            placeholder="Введите квартиру"
+          />
+        </label>
+        <div class="address-del">
+          <span>Удалить адрес:</span>
+          <button
+            class="btn"
+            type="button"
+            (click)="deleteAddress(group, j)"
+            [disabled]="isSaving"
+          >
+            -
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  }
+
+  <button type="submit" class="btn form-submit" [disabled]="isSaving">
+    Подтвердить
+  </button>
+</form>

@@ -1,0 +1,54 @@
+:host {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-gap: 12px;
+}
+
+:host.is-mine {
+  grid-template-columns: min-content 32px;
+  justify-content: flex-end;
+
+  .message-wrapper {
+    order: -1;
+  }
+
+  .message-text {
+    color: var(--dark-color);
+    background: var(--primary-color);
+    mask: linear-gradient(#000 0 0),
+      linear-gradient(215deg, #000 50%, rgba(0, 0, 0, 0) 0) border-box 100% 100% /
+        200% 200% no-repeat;
+    mask-composite: exclude;
+    mask-position: -10px calc(100% + 5px);
+  }
+}
+
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.message-time {
+  text-wrap: nowrap;
+}
+
+.message-text {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: var(--light-color);
+  background: var(--message-color);
+  font-weight: 500;
+  width: min-content;
+  mask: linear-gradient(#000 0 0),
+    linear-gradient(-225deg, #000 50%, rgba(0, 0, 0, 0) 0) border-box 100% 100% /
+      200% 200% no-repeat;
+  mask-composite: exclude;
+  mask-position: calc(10px + 100%) calc(100% + 5px);
+}

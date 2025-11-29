@@ -1,0 +1,19 @@
+:host {
+  background: var(--dark-color);
+  border: var(--light-border);
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  //grid-gap: 16px;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+ :host {
+   grid-template-columns: 75px 1fr;
+ }
+  .chats-list{
+  }
+  :host.show-fullChat-List{
+    grid-template-columns: 1fr 1fr;
+  }
+}

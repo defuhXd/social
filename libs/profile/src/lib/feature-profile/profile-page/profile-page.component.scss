@@ -1,0 +1,82 @@
+:host {
+}
+
+.profile-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.to-settings-btn {
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 12px;
+}
+
+.to-settings-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--dark-color);
+}
+
+.profile-page__body {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: 1fr 300px;
+  padding: 24px;
+}
+
+.subscribers-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6px;
+}
+
+.subscribers-avatar__btn {
+}
+
+.to-subscribers-avatar-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px var(--primary-color);
+  }
+}
+
+.to-subscribers-search-btn {
+  border-radius: 50%;
+  background: var(--light-color);
+  width: 18px;
+  height: 18px;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    background: var(--dark-color);
+    top: 50%;
+    left: 50%;
+  }
+  &:before {
+    transform: translateY(-50%) translateX(-50%);
+  }
+  &:after {
+    transform: translateY(-50%) translateX(-50%) rotate(90deg);
+  }
+}
+.skill-tag__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}

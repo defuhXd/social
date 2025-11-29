@@ -1,0 +1,100 @@
+@if (post(); as post) {
+  <app-avatar-circle
+    class="size32"
+    [avatarUrl]="post.author.avatarUrl">
+  </app-avatar-circle>
+
+  <main class="post-body">
+    <div class="post-header">
+      <strong class="post__author"
+      >{{ post.author.firstName }} {{ post.author.lastName }}
+        <span class="post-created-at">{{ post.createdAt | timeAgo }}</span>
+      </strong>
+      <div class="post-btn-wrapper">
+        <button
+          type="button"
+          class="btn-post-other"
+          (click)="toggleMenu($event)"
+          aria-haspopup="true"
+          [attr.aria-expanded]="menuOpen()"
+          aria-controls="post-menu">
+          <svg icon="dotted-icon" class="post-other__svg"></svg>
+        </button>
+
+        <div class="post-edit-delete"
+             id="post-menu"
+             [class.show]="menuOpen()"
+             (click)="$event.stopPropagation()"
+             appClickOutside
+             (clickedOutside)="closeMenu()"
+             role="menu">
+
+          <button class="btn2 edit-btn" (click)="openEditor($event)">Редактировать</button>
+          <button (click)=" deletePost(post.id)" class="btn2 edit-btn">Удалить</button>
+
+        </div>
+
+      </div>
+      <p class="medium-text post-text">{{ post.content }}</p>
+    </div>
+
+
+    <!-- ВСПЛЫВАЮЩИЙ РЕДАКТОР -->
+    <div
+      class="edit-overlay"
+      [class.show]="editOpen()"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="edit-title"
+      (click)="cancelEdit()"
+    >
+      <div class="edit-modal" (click)="$event.stopPropagation()">
+        <h3 id="edit-title" class="h6 mb8">Редактировать пост</h3>
+
+        <app-tt-input
+          class="tt-edit-input"
+          #editorInputRef
+          [isEditPost]="true"
+          [initialText]="post.content"
+          (editPost)="onEditPost($event)">
+        </app-tt-input>
+
+
+        <div class="actions">
+          <button class="btn2" (click)="cancelEdit()">Отмена</button>
+          <!--          <button class="btn" (click)="saveEdit()">Сохранить</button>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="post-counter">
+      <button class="btn-post post-comments hover-comment">
+        <svg icon="comment-icon" class="post-comments__svg hover-comment"></svg>
+        {{ comments2()?.length ?? 0 }}
+      </button>
+
+      <button class="btn-post post-likes hover-like">
+        <svg icon="like-icon" class="post-likes__svg hover-like"></svg>
+        {{ post.likes }}
+      </button>
+    </div>
+
+    <div class="post__comments-wrapper">
+      @for (comment of comments2(); track comment) {
+        <app-comment
+          class="post__comments"
+          [postId]="post.id"
+          [comment]="comment"></app-comment>
+      }
+    </div>
+
+    <app-tt-input
+      class="comment-input"
+      (createdComment)="onCreateComment($event)"
+      [postId]="post.id"
+      [isCommentInput]="true"
+    ></app-tt-input>
+  </main>
+}
+<!--(edit)="onEditComment($event)"-->
+<!--(remove)="onDeleteComment($event)"-->

@@ -1,0 +1,223 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-submit-wrapper">
+    <button type="button" class="btn form-submit" (click)="addWorker()">
+      Добавить резюме
+    </button>
+  </div>
+  @for (group of workers.controls; track group; let i = $index) {
+  <div class="employ-form" [formGroup]="group">
+    <div class="form-top">
+      <p class="h4">Резюме {{ i + 1 }}</p>
+      <div class="form-top-btn">
+        <button type="button" class="btn" (click)="deleteWorker(group)">
+          Удалить резюме
+        </button>
+      </div>
+    </div>
+
+    <div class="form-center">
+      <label class="tt-control-label"
+        >Имя:
+        <input
+          formControlName="firstName"
+          [class.error]="
+            group.controls['firstName'].invalid &&
+            group.controls['firstName'].touched
+          "
+          class="tt-input"
+          type="text"
+          placeholder="Введите имя:"
+        />
+        @if (group.controls['firstName'].touched &&
+        group.controls['firstName'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Фамилия:
+        <input
+          formControlName="lastName"
+          class="tt-input"
+          [class.error]="
+            group.controls['lastName'].invalid &&
+            group.controls['lastName'].touched
+          "
+          type="text"
+          placeholder="Введите фамилию:"
+        />
+        @if (group.controls['lastName'].touched &&
+        group.controls['lastName'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+      <label class="tt-control-label"
+        >Год рождения:
+        <input
+          formControlName="birthDate"
+          class="tt-input"
+          [class.error]="
+            group.controls['birthDate'].invalid &&
+            group.controls['birthDate'].touched
+          "
+          type="date"
+          placeholder="например: 12.02.2000"
+        />
+        @if (group.controls['birthDate'].touched &&
+        group.controls['birthDate'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Образование(степень):
+        <select class="tt-input" formControlName="educationType">
+          <option [value]="ReceiverType.VAL1">
+            Высшее (бакалавриат, магистратура)
+          </option>
+          <option [value]="ReceiverType.VAL2">
+            Среднее специальное (колледж)
+          </option>
+          <option [value]="ReceiverType.VAL3">Среднее (школа)</option>
+          <option [value]="ReceiverType.VAL4">Другое</option>
+          <option [value]="ReceiverType.VAL5">Нет</option>
+        </select>
+      </label>
+
+      <label class="tt-control-label"
+        >Образование:
+        <input
+          formControlName="education"
+          class="tt-input"
+          type="text"
+          placeholder="Введите Образование:"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Профессия:
+        <input
+          formControlName="profession"
+          class="tt-input"
+          [class.error]="
+            group.controls['profession'].invalid &&
+            group.controls['profession'].touched
+          "
+          type="text"
+          placeholder="Введите профессию:"
+        />
+        @if (group.controls['profession'].touched &&
+        group.controls['profession'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Навыки:
+        <input
+          formControlName="skills"
+          class="tt-input"
+          type="text"
+          placeholder="Введите навыки:"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Почта:
+        <input
+          formControlName="email"
+          class="tt-input"
+          [class.error]="
+            group.controls['email'].invalid && group.controls['email'].touched
+          "
+          type="text"
+          placeholder="Введите почту:"
+        />
+        @if (group.controls['email'].touched &&
+        group.controls['email'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+
+      <label class="tt-control-label"
+        >Телефон:
+        <input
+          formControlName="phone"
+          class="tt-input"
+          [class.error]="
+            group.controls['phone'].invalid && group.controls['phone'].touched
+          "
+          type="text"
+          (input)="onPhoneInput($event, group)"
+          placeholder="+7 (9__) ___-__-__"
+        />
+        @if (group.controls['phone'].touched &&
+        group.controls['phone'].hasError('required')) {
+        <small class="error-text">*Это поле обязательно!</small>
+        }
+      </label>
+    </div>
+
+    <h4>Адреса:</h4>
+    <div class="address-btns">
+      <button class="btn" type="button" (click)="addAddress(group)">
+        Добавить адрес
+      </button>
+    </div>
+    @for (addressGroup of getAddresses(group).controls; track addressGroup; let
+    j = $index) {
+    <div class="form-address" [formGroup]="addressGroup">
+      <label class="tt-control-label"
+        >Город:
+        <input
+          formControlName="city"
+          class="tt-input"
+          type="text"
+          placeholder="Введите город"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Улица:
+        <input
+          formControlName="street"
+          class="tt-input"
+          type="text"
+          placeholder="Введите улицу"
+        />
+      </label>
+
+      <label class="tt-control-label"
+        >Дом:
+        <input
+          formControlName="building"
+          class="tt-input"
+          type="text"
+          placeholder="Введите дом"
+        />
+      </label>
+
+      <div class="form-address-lastel">
+        <label class="tt-control-label"
+          >Квартира:
+          <input
+            formControlName="apartment"
+            class="tt-input"
+            type="text"
+            placeholder="Введите квартиру"
+          />
+        </label>
+        <div class="address-del">
+          <span>Удалить адрес:</span>
+          <button class="btn" type="button" (click)="deleteAddress(group, j)">
+            -
+          </button>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  }
+
+  <button type="submit" class="btn form-submit">Подтвердить</button>
+</form>

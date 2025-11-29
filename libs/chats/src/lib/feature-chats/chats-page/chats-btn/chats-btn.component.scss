@@ -1,0 +1,86 @@
+:host {
+  border-bottom: var(--light-border);
+  padding: 24px 20px;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-gap: 16px;
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+}
+
+:host:hover,
+:host:focus-visible,
+:host.active {
+  background: var(--dark-hover-color);
+  color: var(--primary-color);
+
+  & .chat-user {
+    color: var(--primary-color);
+  }
+}
+
+.last-message-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--light-color);
+}
+
+.chat-user {
+  color: var(--light-transparent-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-time {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.chat-time-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.chat-unread-messages {
+  padding: 2px 4px;
+  color: var(--dark-color);
+  background: var(--primary-color);
+  width: min-content;
+}
+
+.chat-text {
+  display: flex;
+  //justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  :host {
+    //padding: 0 0;
+    grid-template-columns: 32px 0;
+    place-content: center;
+    grid-gap: 8px;
+  }
+ .last-message-wrapper{
+   display: none;
+ }
+  :host.show{
+    padding: 12px 10px;
+    grid-gap: 8px;
+    grid-template-columns: 32px 1fr;
+
+    .last-message-wrapper{
+      display: flex;
+      gap: 5px;
+    }
+    .chat-user{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+}

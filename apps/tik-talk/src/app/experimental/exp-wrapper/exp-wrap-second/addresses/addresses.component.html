@@ -1,0 +1,12 @@
+<div>
+  @for (addressCtrl of parentFormArray.controls; track addressCtrl) {
+  <app-address-form [formGroup]="addressCtrl"></app-address-form>
+  <button
+    type="button"
+    (click)="deleteAddress(parentFormArray.controls.indexOf(addressCtrl))"
+  >
+    Удалить адрес
+  </button>
+  }
+  <button type="button" (click)="addAddress()">Добавить адрес</button>
+</div>

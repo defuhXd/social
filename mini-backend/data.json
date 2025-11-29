@@ -1,0 +1,45 @@
+{
+  "workers": [
+    {
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "email": "ivan@mail.ru",
+      "phone": "+7 (999) 123-45-67",
+      "age": "12.02.2000",
+      "educationType": "UNIVERSITY",
+      "education": "МГУ",
+      "skills": "Angular, TypeScript",
+      "experience": "3 года",
+      "profession": "Frontend-разработчик",
+      "addresses": [
+        {
+          "city": "Москва",
+          "street": "Арбат",
+          "building": 10,
+          "apartment": 15
+        }
+      ]
+    },
+    {
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "email": "ivan@mail.ru",
+      "phone": "+7 (999) 123-45-67",
+      "birthDate": "12.02.2000",
+      "educationType": "UNIVERSITY",
+      "education": "МГУ",
+      "skills": "Angular, TypeScript",
+      "experience": "3 года",
+      "profession": "Frontend-разработчик",
+      "addresses": [
+        {
+          "city": "Москва",
+          "street": "Арбат",
+          "building": 10,
+          "apartment": 15
+        }
+      ]
+    }
+  ],
+  "jobs": []
+}

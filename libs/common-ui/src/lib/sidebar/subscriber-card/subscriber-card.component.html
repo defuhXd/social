@@ -1,0 +1,11 @@
+<a [routerLink]="['/profile', profile.id]" class="sidebar-subs-wrapper hoverbg">
+  <img
+    class="subscriber-card__avatar"
+    [src]="profile.avatarUrl | imgUrl"
+    [alt]="profile.lastName"
+  />
+
+  <strong class="subtitle subscriber-card__name hovert"
+    >{{ profile.firstName }} {{ profile.lastName }}</strong
+  >
+</a>

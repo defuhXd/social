@@ -1,0 +1,34 @@
+<form class="community-search-form" [formGroup]="communityForm">
+  <label class="tt-form-label">
+    <span class=" ">Название сообщества</span>
+    <input
+      type="text"
+      class="tt-form-input"
+      formControlName="communityName"
+      placeholder="Поиск по названию..."
+    />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+
+  <label class="tt-form-label">
+    <span class=" ">Тема</span>
+    <input
+      type="text"
+      class="tt-form-input"
+      formControlName="city"
+      placeholder="Поиск по темам..."
+    />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+
+  <label class="tt-form-label">
+    <span class=" ">Теги</span>
+    <input
+      type="text"
+      class="tt-form-input"
+      formControlName="tag"
+      placeholder="Поиск по тегам..."
+    />
+    <svg icon="search" class="tt-chat-svg"></svg>
+  </label>
+</form>
